@@ -1,11 +1,13 @@
-server:
-  port: 0
+spring:
+  profiles: default
   application:
-    name:tpm-people-server
+    name: tpm-people-server
   datasource:
     url: jdbc:mysql://localhost:3306/tpm-workshop
     username: root
     password:
     driver-class-name: com.mysql.jdbc.Driver
+server:
+  port: 0
 logging.level.org.hibernate.sql: DEBUG
 logging.level.org.flyway: DEBUG
