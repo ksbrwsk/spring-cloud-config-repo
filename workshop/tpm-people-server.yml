@@ -3,7 +3,7 @@ spring:
   application:
     name: tpm-people-server
   datasource:
-    url: jdbc:mysql://localhost:3306/tpm-workshop
+    url: jdbc:mysql://localhost:3306/06-complete
     username: root
     password:
     driver-class-name: com.mysql.jdbc.Driver
