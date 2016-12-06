@@ -2,7 +2,6 @@ spring:
   profiles: default
   application:
     name: tpm-people-client
-fetchRegistry
 eureka:
   client:
     fetchRegistry: false
