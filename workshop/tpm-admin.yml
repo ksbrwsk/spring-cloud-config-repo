@@ -1,9 +1,5 @@
 ---
 spring:
   profiles: default
-  cloud:
-    config:
-      uri: http://localhost:8000
-    fail-fast: true
   application:
     name: tpm-admin
