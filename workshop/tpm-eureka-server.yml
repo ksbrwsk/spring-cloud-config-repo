@@ -2,6 +2,8 @@
 # Das Default Profil wenn der Server Standalone läuft
 spring:
   profiles: default
+  application:
+    name: tpm-eureka-server
 server:
   port: 8761
 eureka:
@@ -12,5 +14,3 @@ eureka:
     fetchRegistry: false
     serviceUrl:
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
-  application:
-    name: tpm-eureka-server
