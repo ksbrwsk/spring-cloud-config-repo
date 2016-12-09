@@ -3,5 +3,10 @@ spring:
   profiles: default
   application:
     name: tpm-admin
+eureka:
+  client:
+    register-with-eureka: true
+    serviceUrl:
+      defaultZone: http://localhost:8010/eureka/,http://localhost:8011/eureka/,http://localhost:8012/eureka/,http://localhost:8013/eureka/
 server:
   port: 8080
