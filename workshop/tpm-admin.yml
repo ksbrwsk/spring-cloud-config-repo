@@ -3,3 +3,5 @@ spring:
   profiles: default
   application:
     name: tpm-admin
+server:
+  port: 8080
