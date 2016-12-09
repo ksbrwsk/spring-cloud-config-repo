@@ -13,4 +13,5 @@ eureka:
     registerWithEureka: true
     fetchRegistry: false
     serviceUrl:
-      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+      #defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+      defaultTone: http://tpm-eureka-server.local.pcfdev.io/
